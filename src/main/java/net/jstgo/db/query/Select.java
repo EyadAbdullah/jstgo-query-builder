@@ -2,16 +2,9 @@ package net.jstgo.db.query;
 
 import net.jstgo.db.abstracts.BaseField;
 import net.jstgo.db.abstracts.DmlBuilder;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.TreeSet;
 
-/**
- * @author : Eyad Abdullah
- * @version : 1.0
- */
 public class Select extends DmlBuilder {
 
   private LinkedHashSet<BaseField> fields;

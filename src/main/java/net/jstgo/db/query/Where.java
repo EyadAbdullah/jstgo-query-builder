@@ -4,10 +4,6 @@ import net.jstgo.db.abstracts.BaseField;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
 
-/**
- * @author : Eyad Abdullah
- * @version : 1.0 <br>
- */
 public class Where {
 
   private final LinkedHashSet<BaseField> conditions;

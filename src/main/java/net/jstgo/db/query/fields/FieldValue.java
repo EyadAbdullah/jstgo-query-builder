@@ -4,20 +4,6 @@ import net.jstgo.db.abstracts.BaseField;
 import net.jstgo.db.enums.ComparisonOperator;
 import net.jstgo.db.enums.ConditionalOperator;
 
-/**
- * @author : Eyad Abdullah
- * @version : 1.0 <br>
- * <ul>
- *   <li>
- *       <h3>Example [{@link #tableName}=testTable, {@link #name}=testField,{@link
- *       #values}={'value1'}]:<br>
- *       testTable.testField = 'value1'
- *   <li>
- *       <h3>Example [{@link #tableName}=testTable, {@link #name}=testField,{@link
- *       #comparisonOperator}=IN{@link #values}={'value1', 'value2'}]:<br>
- *       testTable.testField IN ('value1', 'value2')
- * </ul>
- */
 public class FieldValue extends BaseField implements IsCondition {
 
   private final String tableName;

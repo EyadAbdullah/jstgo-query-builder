@@ -2,13 +2,6 @@ package net.jstgo.db.query.fields;
 
 import net.jstgo.db.abstracts.BaseField;
 
-/**
- * @author : Eyad Abdullah
- * @version : 1.0 <br>
- *     <h3>{@link #parentheses}: <br>
- *     * - Example [{@link #parentheses}=false]: 'ClassValue' ... <br>
- *     * - Example [{@link #parentheses}=true]: ('ClassValue') ... <br>
- */
 public class FieldJoiner extends BaseField {
   private final BaseField[] fields;
   private final boolean parentheses;

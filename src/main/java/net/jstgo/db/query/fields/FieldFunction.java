@@ -4,13 +4,6 @@ import net.jstgo.db.abstracts.BaseField;
 import net.jstgo.db.enums.AggregateFunction;
 import net.jstgo.db.enums.FunctionOperator;
 
-/**
- * @author : Eyad Abdullah
- * @version : 1.0 <br>
- *     <h3>{@link #aggregateFunction}: <br>
- *     - Example [{@link #aggregateFunction}=ADD] : add(value1,value2 ...) <br>
- *     - Example [{@link #aggregateFunction}=COUNT] : COUNT(value1,value2 ...) <br>
- */
 public class FieldFunction extends BaseField {
   private final AggregateFunction aggregateFunction;
   private BaseField[] values;

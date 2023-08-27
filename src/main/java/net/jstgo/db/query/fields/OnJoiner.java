@@ -4,16 +4,6 @@ import net.jstgo.db.abstracts.BaseField;
 import net.jstgo.db.abstracts.BaseJoiner;
 import net.jstgo.db.enums.TableJoinerType;
 
-/**
- * @author : Eyad Abdullah
- * @version : 1.0 <br>
- *     <h3>Description : join item for {@link TableJoiner}
- *     <h3>{@link #type} : join type <br>
- *     <h3>{@link #table} : join table name <br>
- *     <h3>{@link #field} : join table field <br>
- *     <br>
- *     Example: {@link #type} JOIN {@link #table} ON {@link #field}={@link #field};
- */
 public class OnJoiner extends BaseJoiner {
   private final TableJoinerType type;
   private final BaseField table;
