@@ -1,10 +1,10 @@
 # JSTGO DB Query Builder
 
-![GitHub](https://img.shields.io/github/license/EyadAbdullah/jstgo-template)
-![publish package](https://github.com/EyadAbdullah/jstgo-template/actions/workflows/publish-java-gradle.yml/badge.svg?branch=main)
-![build gradle](https://github.com/EyadAbdullah/jstgo-template/actions/workflows/gradle.yml/badge.svg)
-[![](https://jitpack.io/v/EyadAbdullah/jstgo-template.svg)](https://jitpack.io/#EyadAbdullah/jstgo-template)
-[![GitHub Stars](https://img.shields.io/github/stars/EyadAbdullah/jstgo-template)](https://github.com/EyadAbdullah/jstgo-template/stargazers)
+![GitHub](https://img.shields.io/github/license/EyadAbdullah/jstgo-query-builder)
+![publish package](https://github.com/EyadAbdullah/jstgo-query-builder/actions/workflows/publish-java-gradle.yml/badge.svg?branch=main)
+![build gradle](https://github.com/EyadAbdullah/jstgo-query-builder/actions/workflows/gradle.yml/badge.svg)
+[![](https://jitpack.io/v/EyadAbdullah/jstgo-query-builder.svg)](https://jitpack.io/#EyadAbdullah/jstgo-query-builder)
+[![GitHub Stars](https://img.shields.io/github/stars/EyadAbdullah/jstgo-query-builder)](https://github.com/EyadAbdullah/jstgo-query-builder/stargazers)
 
 ## Overview
 
